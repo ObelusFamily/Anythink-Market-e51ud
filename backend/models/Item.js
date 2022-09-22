@@ -14,7 +14,7 @@ var ItemSchema = new mongoose.Schema(
     tagList: [{ type: String }],
     seller: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 ItemSchema.plugin(uniqueValidator, { message: "is already taken" });

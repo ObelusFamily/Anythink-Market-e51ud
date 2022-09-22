@@ -33,5 +33,12 @@
   "features": {
     "docker-in-docker": "latest",
     "github-cli": "latest"
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"rvest.vs-code-prettier-eslint"
+		]
+	}
+}
 }

@@ -23,6 +23,7 @@
     "jquery": "^3.6.1",
     "marked": "^0.3.6",
     "postcss": "^8.4.16",
+    "prettier-eslint": "^15.0.1",
     "prop-types": "^15.5.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
